@@ -7,7 +7,4 @@ function mostrarAumento()
 {
 	var num1 = document.getElementById("txtIdSueldo").value;
 	document.getElementById("txtIdResultado").value = parseInt(num1) + (num1*10) / 100 ;
-
-
-	
 }
